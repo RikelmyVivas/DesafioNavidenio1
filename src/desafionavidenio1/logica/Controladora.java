@@ -23,6 +23,7 @@ public class Controladora {
     
     public String[][] generarMatriz(){
         
+        //generar matriz
         Random random = new Random();
         String [] emojis = {"🎅", "⭐", "🎄", "🎁"};
         String [][] matriz = new String [4][4]; 
